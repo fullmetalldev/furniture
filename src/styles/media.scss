@@ -1,0 +1,290 @@
+@media (max-width: 1400px) {
+  .pop_rooms_section .container .h1 {
+    align-self: center;
+    text-align: center;
+  }
+  .pop_rooms_section .container .span {
+    align-self: center;
+    text-align: center;
+  }
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section_info {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main {
+    margin-top: 50px;
+  }
+  header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .section_info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    .section_info__title {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-flow: column wrap;
+      margin-bottom: 50px;
+      padding-left: 50px;
+
+      .lit_txt {
+        text-align: left;
+        padding-right: 50px;
+      }
+
+    }
+
+    .section_info__images {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .two_images {
+      row-gap: 20px;
+    }
+
+  }
+}
+
+@media (max-width: 860px) {
+  header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .main .comment {
+    column-gap: 100px;
+  }
+  .header .navigation_bar .burger {
+    display: block;
+  }
+  .header .navigation_bar .register {
+    display: none;
+  }
+  .header .title_and_menu .row_for_nav {
+    display: none;
+  }
+  .cards_section .container .h1 {
+    margin-top: 80px;
+    font-size: 40px;
+  }
+  .lit_txt {
+    padding-right: 50px;
+  }
+
+  .section_info__images {
+    padding: 0 10px;
+  }
+  .two_images {
+    img {
+      height: calc(50% - 10px);
+    }
+  }
+  .pop_rooms_section__card {
+    width: calc(50% - 30px);
+
+    h1 {
+      font-size: 20px !important;
+    }
+
+    span {
+      font-size: 16px !important;
+    }
+  }
+  .pop_rooms_section .container {
+    margin-top: 80px;
+  }
+  .pop_rooms_section .container .h1 {
+    font-size: 40px;
+  }
+  .pop_rooms_section .container .span {
+    font-size: 16px;
+  }
+  .pop_rooms_section__card:hover {
+    width: calc(51% - 30px);
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0 20px 100px rgba(0, 0, 0, 0.5);
+  }
+  .comments_from_clients .container .title_comments {
+    font-size: 40px;
+  }
+  .cards_section__card {
+    width: calc(50% - 30px);
+  }
+  .section_info__title .big_txt {
+    font-size: 50px;
+  }
+
+  .main {
+    margin-top: 30px;
+  }
+
+}
+
+.comments_from_clients .container .row_for_cards .comments_section_card h1 {
+  margin-bottom: 20px;
+}
+
+.block_email h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.block_email label {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+@media (max-width: 630px) {
+  .footer .container .padding{
+    margin-right: 0;
+  }
+
+  .footer .container{
+    flex-flow: wrap row;
+    row-gap: 10px;
+  }
+
+  .footer .container ul{
+    width: 100%;
+  }
+
+  .footer .container{
+    h1{
+      font-size: 14px !important;
+    }
+    span{
+      font-size: 10px !important;
+    }
+  }
+  .block_email label .block_of_email{
+    align-items: center;
+  }
+  .comments_from_clients .container .row_for_cards .comments_section_card{
+    padding: 10px;
+  }
+  .block_email label .block_of_email .inp{
+    padding-right: 150px;
+  }
+  .main .comment {
+    column-gap: 80px;
+  }
+  .cards_section .row_for_cards {
+    margin-top: 40px;
+  }
+  .section_carousel .carousel_main_txt {
+    margin-top: 80px;
+  }
+
+  .comments_from_clients .container .row_for_cards .comments_section_card span {
+    font-size: 14px;
+  }
+  .comments_from_clients .container .row_for_cards .comments_section_card h1 {
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .form{
+    width: 300px;
+    height: 400px;
+    .blank{
+      padding: 0 50px;
+    }
+  }
+  .form_reg .label{
+    width: 300px;
+    height: 400px;
+  }
+  .block_email label .block_of_email .inp{
+    padding-right: 0;
+  }
+  .comments_from_clients .container .row_for_cards .comments_section_card{
+    padding: 5px;
+  }
+  .footer{
+    overflow: hidden;
+  }
+  .comments_from_clients .container .row_for_cards .comments_section_card{
+    width: calc(33% - 10px);
+  }
+  .row_for_cards{
+    column-gap: 10px;
+  }
+  .comments_from_clients .container .row_for_cards .comments_section_card span{
+    font-size: 10px;
+  }
+  .main .comment {
+    column-gap: 20px;
+  }
+  .section_info .section_info__title {
+    margin-bottom: 50px;
+    align-items: center;
+    padding-left: 0;
+    .lit_txt {
+      text-align: center;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+  }
+  .section_info__title .lit_txt {
+    font-size: 10px;
+  }
+  .main {
+    margin-top: 0;
+  }
+  .section_info__title .big_txt {
+    font-size: 30px;
+  }
+  .section_carousel .container .carousel_main_txt {
+    margin-top: 20px;
+  }
+  .section_carousel .container .carousel_main_txt {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .section_carousel .container .main_subtitle_carousel {
+    margin-bottom: 20px;
+  }
+  .section_carousel .container .owl-dots {
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  .cards_section .container .h1 {
+    font-size: 28px;
+    padding: 0 50px;
+  }
+  .cards_section__card {
+    span {
+      font-size: 10px !important;
+    }
+
+    h1 {
+      font-size: 12px !important;
+    }
+  }
+
+}
